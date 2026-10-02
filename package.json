@@ -1,0 +1,15 @@
+{
+  "name": "umnr-handoff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "无成人陪伴儿童（UMNR）航班地面-乘务-到达站交接链系统",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "seed": "node src/seed.js --reset",
+    "test": "node --no-warnings --test test/*.test.js"
+  },
+  "license": "MIT"
+}
